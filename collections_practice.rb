@@ -30,8 +30,8 @@ end
 
 def find_a(array)
   new_array = []
-  array.each { |string| string.select ("a") 
-  new_array << 
-  }
-  new_array
+   using select method
+    array.select do |word|
+    word[0] == "a"
+    end
 end
