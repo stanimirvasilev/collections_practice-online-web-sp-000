@@ -33,4 +33,5 @@ def find_a(array)
   array.each { |string| string.select ("a") 
   new_array << 
   }
+  new_array
 end
