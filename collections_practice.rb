@@ -29,8 +29,6 @@ end
 
 
 def find_a(array)
-  new_array = []
-   using select method
     array.select do |word|
     word[0] == "a"
     end
