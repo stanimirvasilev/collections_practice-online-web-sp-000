@@ -26,7 +26,3 @@ def kesha_maker(array)
 end
 array
 end
-
-def find_a(array)
-  array.each { |string| string.select ("a")
-end
