@@ -29,5 +29,5 @@ end
 
 
 def find_a(array)
-   array.inject(0, :+)
+  array.inject(0, :+)
 end
